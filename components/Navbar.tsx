@@ -37,7 +37,7 @@ const Navbar = () => {
                         Pricing
                     </Link>
                     <NavigationMenu>
-                        <NavigationMenuList>
+                        <NavigationMenuList className='gap-6'>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger className="bg-transparent text-white hover:opacity-80 hover:bg-black hover:text-white">
                                     Resources
