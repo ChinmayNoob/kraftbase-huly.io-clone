@@ -22,7 +22,7 @@ import { FaLinkedin, FaSlack, FaXTwitter, FaYoutube } from 'react-icons/fa6';
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative py-5 w-full">
+        <nav className="flex justify-between items-center mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative py-5 w-full z-50">
             <div className='flex items-center gap-12'>
                 <Link href="/">
                     <Image

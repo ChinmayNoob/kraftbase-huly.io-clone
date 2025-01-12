@@ -2,7 +2,7 @@ import React from 'react'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa6'
 import { motion } from "motion/react"
 import Image from 'next/image'
-import { InfiniteSlider } from './ui/InfiniteScrollBar'
+import { InfiniteSlider } from '../ui/InfiniteScrollBar'
 import { VscCircleFilled } from "react-icons/vsc";
 
 
@@ -18,19 +18,19 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className='max-w-[248px] lg:max-w-[740px] flex flex-col'>
-                <div className='text-gray-300 text-sm sm:text-base md:text-lg'>
+                <div className='text-gray-300 text-sm sm:text-base md:text-lg flex flex-col lg:flex-row md:flex-row'>
                     Huly, an open-source platform,
-                </div>
-                <div className='flex flex-col lg:flex-row md:flex-row'>
                     <div className='text-gray-300 text-sm sm:text-base md:text-lg'>
                         serves as an all in one replacement
                     </div>
+                </div>
+                <div className='flex flex-col lg:flex-row md:flex-row'>
                     <div className='text-gray-300 text-sm sm:text-base md:text-lg'>
                         of Linear,Jira,Slack and Notion
                     </div>
                 </div>
             </div>
-            <div className='mt-2 max-w-28 lg:max-w-[250px] relative'>
+            <div className='mt-2 lg:mt-10 max-w-28 lg:max-w-[248px] relative'>
                 <motion.button
                     whileHover={{ scale: 1.05 }}
                     className='bg-gradient-to-r from-white to-gray-200 text-black px-3 lg:px-6 py-2.5 rounded-full font-semibold text-sm w-full flex gap-2 justify-center items-center shadow-lg transition-all duration-300 hover:shadow-white/25 overflow-hidden relative'
