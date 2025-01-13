@@ -2,7 +2,7 @@ import React from 'react'
 
 const BentoGrid = () => {
     return (
-        <section className='mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative py-5 w-full'>
+        <section className='mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative py-5 w-full mt-16'>
             <div className='flex flex-col justify-center lg:mx-28'>
                 <h1 className='flex text-4xl lg:text-6xl text-black mt-12 font-bold font-marten'>
                     Unmatched Productivity
