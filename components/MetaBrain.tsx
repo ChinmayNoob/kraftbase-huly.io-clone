@@ -6,7 +6,7 @@ const MetaBrain = () => {
     return (
         <section className='mx-auto max-w-full px-6 lg:px-20 3xl:px-0 relative py-5 w-full bg-white text-black mt-14 lg:mt-32'>
             <div className='flex flex-col justify-center max-w-6xl mx-auto'>
-                <h1 className='font-bold text-3xl md:text-3xl lg:text-7xl tracking-tight p-2 lg:ml-8'>
+                <h1 className='font-bold text-3xl md:text-3xl lg:text-7xl tracking-tight p-2 lg:ml-8 font-marten'>
                     Huly Metabrain
                 </h1>
                 <div className='flex flex-col text-black mb-14 p-2 lg:ml-8 text-xl'>

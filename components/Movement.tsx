@@ -12,7 +12,7 @@ const Movement = () => {
                     </div>
                     <div className='w-full lg:w-1/2'>
                         <div className='flex flex-col justify-start gap-0.5'>
-                            <h1 className='flex flex-col text-3xl lg:text-7xl font-bold mb-4 text-center lg:text-start'>
+                            <h1 className='flex flex-col text-3xl lg:text-7xl font-bold mb-4 text-center lg:text-start font-marten'>
                                 <span>Join the </span>
                                 <span>Movement</span>
                             </h1>

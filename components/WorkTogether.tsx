@@ -5,10 +5,10 @@ const WorkTogether = () => {
     return (
         <section className='mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative py-5 w-full z-50 mt-12'>
             <div className='flex flex-col justify-center items-start max-w-3xl mx-auto'>
-                <h1 className='font-bold text-black text-3xl lg:text-7xl tracking-tight'>
+                <h1 className='font-bold text-black text-3xl lg:text-7xl tracking-tight font-marten'>
                     Work Together
                 </h1>
-                <h1 className='font-bold text-black text-3xl lg:text-7xl tracking-tight'>
+                <h1 className='font-bold text-black text-3xl lg:text-7xl tracking-tight font-marten'>
                     Like in the Office
                 </h1>
                 <p className='text-gray-600 mt-6 text-[10px] lg:text-xl'>

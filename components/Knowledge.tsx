@@ -22,7 +22,7 @@ const Knowledge = () => {
         <section className='mx-auto max-w-full px-6 lg:px-20 3xl:px-0 relative py-5 w-full bg-white text-black my-16'>
             <div className='flex flex-col items-center justify-start'>
                 <h1 className='w-full max-w-[750px] px-4'>
-                    <TypewriterEffect words={words} className='text-2xl md:text-3xl lg:text-7xl font-bold text-left p-4' />
+                    <TypewriterEffect words={words} className='text-2xl md:text-3xl lg:text-7xl font-bold text-left p-4 font-marten' />
                 </h1>
                 <p className='w-full lg:w-[700px] px-2  text-sm lg:text-2xl mt-4 font-normal'>
                     Huly offers a wide range of features to create and manage your project documentation. Huly&apos;s suite of collaborative editing tools boosts team efficiency.

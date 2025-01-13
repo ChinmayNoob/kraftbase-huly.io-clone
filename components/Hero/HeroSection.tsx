@@ -10,10 +10,10 @@ const HeroSection = () => {
     return (
         <section className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative py-5 w-full flex flex-col">
             <div className='flex flex-col sm:text-2xl lg:text-6xl font-bold py-2 md:py-10 bg-clip-text text-transparent bg-gradient-to-b from-white via-gray-300 to-gray-400 relative z-20'>
-                <h1>
+                <h1 className="">
                     Everything App
                 </h1>
-                <h1>
+                <h1 className="">
                     for your teams
                 </h1>
             </div>
@@ -45,19 +45,19 @@ const HeroSection = () => {
                     />
                 </motion.button>
             </div>
-            <div className='lg:mt-44 w-full mt-32'>
+            <div className='lg:mt-44  mt-32 max-sm:-mx-6 '>
                 <Image
-                    src="/images/hero.webp"
+                    src="/heroimg.png"
                     alt='hero image'
-                    width={400}
-                    height={400}
-                    className="w-[400px] lg:w-[980px] h-full object-contain rounded-sm lg:mt-16 lg:ml-6"
+                    width={2048}
+                    height={1138}
+                    className="[@media(max-width:400px)]:w-full  sm:w-11/12 md:w-9/12 lg:w-[980px] overflow-hidden lg:mt-16 lg:ml-12 rounded-lg"
                 />
             </div>
             <h1 className='text-gray-400 text-[10px] mt-2 lg:text-lg'>
                 Everything that you need for productive team work
             </h1>
-            <div className='hidden lg:flex gap-2 text-white'>
+            <div className='hidden lg:flex gap-2 text-white mb-8'>
                 <p className='flex justify-center items-center gap-2'>Team Planner<VscCircleFilled className='text-sm text-gray-400' /></p>
                 <p className='flex justify-center items-center gap-2'>Project Management<VscCircleFilled className='text-sm text-gray-400' /></p>
                 <p className='flex justify-center items-center gap-2'>Virtual Office<VscCircleFilled className='text-sm text-gray-400' /></p>
