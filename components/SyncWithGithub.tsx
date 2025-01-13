@@ -12,7 +12,7 @@ const SyncWithGithub = () => {
                 <h1 className='font-bold text-2xl md:text-3xl lg:text-7xl tracking-tight'>
                     Both Ways
                 </h1>
-                <div className='flex flex-col text-gray-400'>
+                <div className='flex flex-col text-gray-400 mt-4'>
                     <p>Manage your tasks efficiently with Huly&apos;s bidirectional GitHub synchronization.</p>
                     <p>Use Huly as an advanced front-end for GitHub Issues and GitHub Projects.</p>
                 </div>
@@ -27,7 +27,7 @@ const SyncWithGithub = () => {
                         />
                     </BackgroundGradient>
                 </div>
-                <div className='flex flex-col items-center justify-center mb-10'>
+                <div className='flex flex-col items-center justify-center mb-10 mt-8'>
                     <div className='flex flex-col lg:flex-row mt-8 w-full gap-6'>
                         <div className='flex flex-col gap-4 p-6 bg-black rounded-xl shadow-sm w-full lg:w-full'>
                             <Image
@@ -38,7 +38,7 @@ const SyncWithGithub = () => {
                                 className="text-blue-500"
                             />
                             <div className="space-y-2">
-                                <p className="font-semibold text-xl text-white">Customize workspace</p>
+                                <h3 className="font-semibold text-3xl text-white">Two way synchronization</h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
                                     Create your own offices and meeting rooms to suit your teams needs.
                                 </p>
@@ -54,7 +54,7 @@ const SyncWithGithub = () => {
                                 height={48}
                             />
                             <div className="space-y-2">
-                                <p className="font-semibold text-xl text-white">Audio and video calls</p>
+                                <h3 className="font-semibold text-3xl text-white">Private Tasks</h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
                                     Collaborate efficiently and seamlessly with high quality virtual conferencing.
                                 </p>
@@ -70,7 +70,7 @@ const SyncWithGithub = () => {
                                 height={48}
                             />
                             <div className="space-y-2">
-                                <p className="font-semibold text-xl text-white">Invite guests</p>
+                                <h3 className="font-semibold text-3xl text-white">Multiple Repositories</h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
                                     Meet with guests without ever needing to leave your workspace.
                                 </p>
@@ -88,7 +88,7 @@ const SyncWithGithub = () => {
                                 className="text-blue-500"
                             />
                             <div className="space-y-2">
-                                <p className="font-semibold text-xl text-white">Customize workspace</p>
+                                <h3 className="font-semibold text-3xl text-white">Milestone migration</h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
                                     Create your own offices and meeting rooms to suit your teams needs.
                                 </p>
@@ -104,7 +104,7 @@ const SyncWithGithub = () => {
                                 height={48}
                             />
                             <div className="space-y-2">
-                                <p className="font-semibold text-xl text-white">Audio and video calls</p>
+                                <h3 className="font-semibold text-3xl text-white">Track Progress</h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
                                     Collaborate efficiently and seamlessly with high quality virtual conferencing.
                                 </p>
@@ -120,7 +120,7 @@ const SyncWithGithub = () => {
                                 height={48}
                             />
                             <div className="space-y-2">
-                                <p className="font-semibold text-xl text-white">Invite guests</p>
+                                <h3 className="font-semibold text-3xl text-white">Advanced Filterings</h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
                                     Meet with guests without ever needing to leave your workspace.
                                 </p>
